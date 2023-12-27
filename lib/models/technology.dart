@@ -19,14 +19,13 @@ class TechnologyConstants {
   static TechnologyModel arduino =
       TechnologyModel("Arduino", AppConstants.arduinoImage);
   static TechnologyModel figma =
-  TechnologyModel("figma", AppConstants.figmaImage);
-  static TechnologyModel xd =
-  TechnologyModel("xd", AppConstants.xdImage);
+      TechnologyModel("figma", AppConstants.figmaImage);
+  static TechnologyModel xd = TechnologyModel("xd", AppConstants.xdImage);
   static TechnologyModel restApi =
-  TechnologyModel("restApi", AppConstants.restApiImage);
+      TechnologyModel("restApi", AppConstants.restApiImage);
   static TechnologyModel cSharp =
-  TechnologyModel("cSharp", AppConstants.cSharpImage);
-
+      TechnologyModel("cSharp", AppConstants.cSharpImage);
+  static TechnologyModel java = TechnologyModel("java", AppConstants.java);
 
   static List<TechnologyModel> technologyLearned = [
     flutter,
@@ -34,5 +33,10 @@ class TechnologyConstants {
     python,
     firebase,
     arduino,
+    cSharp,
+    restApi,
+    figma,
+    xd,
+    java,
   ];
 }

@@ -122,6 +122,7 @@ List<CarouselItemModel> carouselItems(double carouselContainerHeight) =>
                                 height: 20,
                                 margin: const EdgeInsets.all(10),
                                 child: Image.asset(e.title),
+                                  color: Colors.black
                               ),
                             ))
                         .toList(),
@@ -131,9 +132,6 @@ List<CarouselItemModel> carouselItems(double carouselContainerHeight) =>
             ],
           ),
         ),
-        image: Container(
-          child:
-              SvgPicture.asset(AppConstants.guySvg, semanticsLabel: 'Guy Logo'),
-        ),
+        image: SvgPicture.asset(AppConstants.guySvg, semanticsLabel: 'Guy Logo'),
       ),
     );

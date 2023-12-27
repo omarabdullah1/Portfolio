@@ -49,6 +49,7 @@ class AppConstants {
   static const xdImage = _techImages + "xd.png";
   static const restApiImage = _techImages + "restApi.png";
   static const cSharpImage = _techImages + "csharp.png";
+  static const java = _techImages + "java.png";
   static const swiftImage = _techImages + "swift.png";
   static const sceneKitImage = _techImages + "scenekit.jpeg";
   static const javascriptImage = _techImages + "javascript.png";

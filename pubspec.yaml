@@ -35,3 +35,8 @@ flutter:
     - assets/images/social/
     - assets/images/projects/
     - assets/images/technology/
+
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: assets/fonts/IotIcon.ttf

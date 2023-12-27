@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:my_portfolio/models/name_color.dart';
 import 'package:my_portfolio/provider/theme.dart';
+import 'package:my_portfolio/utils/custom_icons.dart';
 import 'package:my_portfolio/utils/utils.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
@@ -37,13 +38,8 @@ class ServiceSection extends StatelessWidget {
       color: Colors.green[400]!,
     ),
     NameIconColor(
-      title: "Web Development",
-      iconData: Icons.web,
-      color: Colors.yellow[400]!,
-    ),
-    NameIconColor(
-      title: "Technical Blog Writer",
-      iconData: Icons.article,
+      title: "IOT Development",
+      iconData: CustomIcons.iot,
       color: Colors.blue[400]!,
     ),
     NameIconColor(
@@ -88,7 +84,7 @@ class ServiceSection extends StatelessWidget {
               GestureDetector(
                 onTap: () {
                   Utility.openUrl(
-                      "https://github.com/omarabdullah1/Portfolio/assets/pdf/Omar_Abdullah.pdf");
+                      "https://github.com/omarabdullah1/Portfolio/blob/master/assets/pdf/Omar_Abdullah.pdf");
                 },
                 child: MouseRegion(
                   cursor: SystemMouseCursors.click,

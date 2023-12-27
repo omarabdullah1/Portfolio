@@ -13,12 +13,10 @@ class DemoSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: ScreenHelper(
-        desktop: _buildUi(context),
-        tablet: _buildUi(context),
-        mobile: _buildUi(context),
-      ),
+    return ScreenHelper(
+      desktop: _buildUi(context),
+      tablet: _buildUi(context),
+      mobile: _buildUi(context),
     );
   }
 

@@ -93,8 +93,8 @@ class _HomeState extends ConsumerState<Home>
                 ProjectSection(
                   projects: ProjectModel.projects,
                 ),
-                Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 28.0),
+                const Padding(
+                  padding: EdgeInsets.symmetric(vertical: 28.0),
                   child: PortfolioStats(),
                 ),
                 const SizedBox(

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:my_portfolio/models/project.dart';
@@ -7,8 +6,6 @@ import 'package:my_portfolio/provider/theme.dart';
 import 'package:my_portfolio/utils/constants.dart';
 import 'package:my_portfolio/utils/screen_helper.dart';
 import 'package:my_portfolio/utils/utils.dart';
-
-import '../../../main.dart';
 
 class ProjectSection extends StatelessWidget {
   final List<ProjectModel> projects;

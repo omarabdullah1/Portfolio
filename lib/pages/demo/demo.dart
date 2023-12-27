@@ -22,7 +22,6 @@ class _DemoScreenState extends ConsumerState<DemoScreen> {
   @override
   void initState() {
     super.initState();
-
     _homeProvider = ref.read(homeProvider);
   }
 
@@ -77,7 +76,7 @@ class _DemoScreenState extends ConsumerState<DemoScreen> {
             ),
           ),
         ),
-        DemoHeader(),
+        const DemoHeader(),
       ],
     );
   }
@@ -91,6 +90,8 @@ class _DemoScreenState extends ConsumerState<DemoScreen> {
 }
 
 class DemoHeader extends StatelessWidget {
+  const DemoHeader({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -98,9 +99,9 @@ class DemoHeader extends StatelessWidget {
       child: Container(
         padding: EdgeInsets.symmetric(
             horizontal: ScreenHelper.isDesktop(context) ? 24 : 16.0),
-        child: Row(
+        child: const Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: const [
+          children: [
             HeaderLogo(),
           ],
         ),

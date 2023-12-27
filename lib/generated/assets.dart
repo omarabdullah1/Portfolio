@@ -2,9 +2,12 @@
 class Assets {
   Assets._();
 
+  static const String fontsIotIcon = 'assets/fonts/IotIcon.ttf';
   static const String imagesBlog = 'assets/images/blog.png';
   static const String imagesDevelop = 'assets/images/develop.png';
+  static const String imagesIot = 'assets/images/iot.png';
   static const String imagesLearn = 'assets/images/learn.png';
+  static const String pdfOmarAbdullah = 'assets/pdf/Omar_Abdullah.pdf';
   static const String projects1 = 'assets/images/projects/1.png';
   static const String projects2 = 'assets/images/projects/2.png';
   static const String projects3 = 'assets/images/projects/3.png';
@@ -26,6 +29,7 @@ class Assets {
   static const String technologyFirebase = 'assets/images/technology/firebase.png';
   static const String technologyFlask = 'assets/images/technology/flask.png';
   static const String technologyFlutter = 'assets/images/technology/flutter.png';
+  static const String technologyJava = 'assets/images/technology/java.png';
   static const String technologyJavascript = 'assets/images/technology/javascript.png';
   static const String technologyPhp = 'assets/images/technology/php.png';
   static const String technologyPython = 'assets/images/technology/python.png';
