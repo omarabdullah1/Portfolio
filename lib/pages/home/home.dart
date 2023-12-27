@@ -34,11 +34,6 @@ class _HomeState extends ConsumerState<Home>
     super.initState();
   }
 
-  @override
-  void dispose() {
-    super.dispose();
-  }
-
   Widget _buildPage() {
     return Stack(
       children: [

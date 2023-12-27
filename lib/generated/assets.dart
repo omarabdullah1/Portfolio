@@ -2,23 +2,17 @@
 class Assets {
   Assets._();
 
-  static const String gifDesktop = 'outputs/gif/desktop.gif';
-  static const String gifMobile = 'outputs/gif/mobile.gif';
   static const String imagesBlog = 'assets/images/blog.png';
   static const String imagesDevelop = 'assets/images/develop.png';
   static const String imagesLearn = 'assets/images/learn.png';
-  static const String outputs1 = 'outputs/1.png';
-  static const String outputs2 = 'outputs/2.png';
-  static const String outputs3 = 'outputs/3.png';
-  static const String outputs4 = 'outputs/4.png';
-  static const String outputs5 = 'outputs/5.png';
-  static const String outputs6 = 'outputs/6.png';
-  static const String projects1 = 'assets/images/projects/1.jpeg';
-  static const String projects2 = 'assets/images/projects/2.jpeg';
-  static const String projects3 = 'assets/images/projects/3.jpeg';
-  static const String projects4 = 'assets/images/projects/4.jpeg';
-  static const String projects5 = 'assets/images/projects/5.jpeg';
-  static const String projects6 = 'assets/images/projects/6.jpeg';
+  static const String projects1 = 'assets/images/projects/1.png';
+  static const String projects2 = 'assets/images/projects/2.png';
+  static const String projects3 = 'assets/images/projects/3.png';
+  static const String projects4 = 'assets/images/projects/4.png';
+  static const String projects5 = 'assets/images/projects/5.png';
+  static const String projects6 = 'assets/images/projects/6.jpg';
+  static const String projects7 = 'assets/images/projects/7.jpg';
+  static const String projects8 = 'assets/images/projects/8.jpg';
   static const String socialEmail = 'assets/images/social/email.png';
   static const String socialGithub = 'assets/images/social/github.png';
   static const String socialInstagram = 'assets/images/social/instagram.png';
@@ -27,6 +21,8 @@ class Assets {
   static const String svgGuy = 'assets/svg/guy.svg';
   static const String svgPerson = 'assets/svg/person.svg';
   static const String technologyArduino = 'assets/images/technology/arduino.png';
+  static const String technologyCsharp = 'assets/images/technology/csharp.png';
+  static const String technologyFigma = 'assets/images/technology/figma.png';
   static const String technologyFirebase = 'assets/images/technology/firebase.png';
   static const String technologyFlask = 'assets/images/technology/flask.png';
   static const String technologyFlutter = 'assets/images/technology/flutter.png';
@@ -34,7 +30,9 @@ class Assets {
   static const String technologyPhp = 'assets/images/technology/php.png';
   static const String technologyPython = 'assets/images/technology/python.png';
   static const String technologyRazorpay = 'assets/images/technology/razorpay.png';
+  static const String technologyRestApi = 'assets/images/technology/restApi.png';
   static const String technologyScenekit = 'assets/images/technology/scenekit.jpeg';
   static const String technologySwift = 'assets/images/technology/swift.png';
+  static const String technologyXd = 'assets/images/technology/xd.png';
 
 }

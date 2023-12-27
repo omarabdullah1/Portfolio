@@ -88,7 +88,7 @@ class ServiceSection extends StatelessWidget {
               GestureDetector(
                 onTap: () {
                   Utility.openUrl(
-                      "https://github.com/AgnelSelvan/AgnelSelvan.github.io/raw/main/assets/files/Agnel-Selvan.pdf");
+                      "https://github.com/omarabdullah1/Portfolio/assets/pdf/Omar_Abdullah.pdf");
                 },
                 child: MouseRegion(
                   cursor: SystemMouseCursors.click,

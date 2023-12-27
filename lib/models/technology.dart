@@ -18,6 +18,15 @@ class TechnologyConstants {
       TechnologyModel("C++", AppConstants.cPlusImage);
   static TechnologyModel arduino =
       TechnologyModel("Arduino", AppConstants.arduinoImage);
+  static TechnologyModel figma =
+  TechnologyModel("figma", AppConstants.figmaImage);
+  static TechnologyModel xd =
+  TechnologyModel("xd", AppConstants.xdImage);
+  static TechnologyModel restApi =
+  TechnologyModel("restApi", AppConstants.restApiImage);
+  static TechnologyModel cSharp =
+  TechnologyModel("cSharp", AppConstants.cSharpImage);
+
 
   static List<TechnologyModel> technologyLearned = [
     flutter,

@@ -15,10 +15,10 @@ double getMobileMaxWidth(BuildContext context) =>
 
 class AppConstants {
   static const linkedInUrl =
-      "https://www.linkedin.com/in/agnel-selvan-328421192/";
-  static const instagramUrl = "https://www.instagram.com/_agnel.selvan_/";
+      "https://www.linkedin.com/in/omar-abdullah-44990021b/";
+  static const instagramUrl = "https://www.instagram.com/omar.a.hassann/";
   static const githubUrl = "https://github.com/omarabdullah1";
-  static const mediumUrl = "https://medium.com/@omarabdullah1";
+  static const mediumUrl = "https://medium.com/@omar.abdullah9825";
 
   static const _assets = "assets/";
   static const _outputs = "outputs/";
@@ -45,17 +45,23 @@ class AppConstants {
   static const razorPayImage = _techImages + "razorpay.png";
   static const cPlusImage = _techImages + "c++.png";
   static const arduinoImage = _techImages + "arduino.png";
+  static const figmaImage = _techImages + "figma.png";
+  static const xdImage = _techImages + "xd.png";
+  static const restApiImage = _techImages + "restApi.png";
+  static const cSharpImage = _techImages + "csharp.png";
   static const swiftImage = _techImages + "swift.png";
   static const sceneKitImage = _techImages + "scenekit.jpeg";
   static const javascriptImage = _techImages + "javascript.png";
 
   static const _projectsImages = _images + "projects/";
-  static const smartStoreImage = _projectsImages + "1.jpeg";
-  static const crossTheRoadImage = _projectsImages + "2.jpeg";
-  static const newsUpImage = _projectsImages + "3.jpeg";
-  static const musicLabImage = _projectsImages + "4.jpeg";
-  static const personalFaceImage = _projectsImages + "5.jpeg";
-  static const computerStoreImage = _projectsImages + "6.jpeg";
+  static const egyoutfitImage = _projectsImages + "1.png";
+  static const artisticWallpaperImage = _projectsImages + "2.png";
+  static const smartHomeImage = _projectsImages + "3.png";
+  static const elManassaImage = _projectsImages + "4.png";
+  static const qmsImage = _projectsImages + "5.png";
+  static const robotArmImage = _projectsImages + "6.jpg";
+  static const simpleFacialRecognitionImage = _projectsImages + "7.jpg";
+  static const simpleImageEditingImage = _projectsImages + "8.jpg";
 
   static const _gifs = _outputs + "gif/";
   static const portfolioGif = _gifs + "mobile.gif";
